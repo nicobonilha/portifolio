@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url('godzilla-2021_5334x3000_xtrafondos\ 1\ \(2\).png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5vw;
+    background: linear-gradient(rgba(10, 42, 91, 1), rgba(58, 71, 91, 0.07));
+
+}
+
+main{
+    height: 80vh;
+    margin: 40px;
+}
+
+.ancora{
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    margin-right: 25vw;
+}
+
+.navegacao-primaria{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.navegacao-secundaria{
+    margin-right: 40px;
+    font-size: 20px;
+    width: 12vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.sessao__primaria{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    height: 60vh;
+    margin-bottom: 5vh;
+}
+ 
+.sessao__primaria-texto{
+    font-size: 80px;
+    font-weight: 600; 
+}
+
+.sessao__primaria-frase{
+    font-size: 40px;
+}
+
+.sessao__primaria-frase > span{
+    font-weight: 200;
+    color: #7BC4DB;
+}
+
+.sessao__primaria-paragrafo{
+    width: 37vw;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+    margin-bottom: 4vh;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6vh;
+}
+
+ul > li{
+    list-style: none;
+    color: yellow;
+    font-size: 20px;
+}
+
+.sessao__primaria-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.sessao__primaria-botao{
+    height: 8vh;
+    width: 12vw;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background-color: #7BC4DB;
+}
+
+#ancora__trailer{
+    font-size: 20px;
+    color: #7BC4DB;
+}
+
+.sessao__secundaria{
+    display: flex;
+    flex-direction: column;
+}
+
+#sessao__secundaria-titulo{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5vh;
+}
+
+.sessao__secundaria-filme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+
+    width: 90vw;
+    height: 48vh;
+    background: linear-gradient(rgba(103, 101, 113, 0.34), rgba(103, 101, 113, 0.34));
+}
+
+#sessao__secundaria-imagem:hover{
+    border: 2px solid #7BC4DB;
+    /* opacity:1;
+    vertical-align: middle;
+    width: 100%;
+    height:50vh;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; */
+}

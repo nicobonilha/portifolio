@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 2vw;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+main{
+    height:80vh ;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    gap: 20px;
+}
+
+.primeiro-container{
+    border: 1px solid black;
+    width: 25vw;
+    height: 42.3vh;
+
+    /* padding: 30px; */
+
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+
+}
+
+.primeiro-container_paragrafo{
+    text-align: justify;
+}
+
+.segundo-container{
+    border: 1px solid black;
+    width: 15vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   padding: 10px;
+   border-radius: 10px;
+}
+
+.segundo-container-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+}
+
+img{
+    width: 12vw;
+    align-self: center;
+    padding: 10px;
+}
+
+.segundo-container-div-secundaria{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.paragrafo-linguagem{
+    border: 1px solid black;
+    
+}
